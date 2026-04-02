@@ -1,0 +1,47 @@
+openapi: 3.0.0
+info:
+  title: Agric Platform API
+  description: API specifications for the Agric Platform.
+  version: 1.0.0
+paths:
+  /user-profiles:
+    get:
+      summary: Get user profiles
+      responses:
+        '200':
+          description: Successful response
+
+  /experts:
+    get:
+      summary: Get expert directory
+      responses:
+        '200':
+          description: Successful response
+
+  /qa-forum:
+    get:
+      summary: Get Q&A forum
+      responses:
+        '200':
+          description: Successful response
+
+  /marketplace:
+    get:
+      summary: Get marketplace items
+      responses:
+        '200':
+          description: Successful response
+
+  /service-booking:
+    post:
+      summary: Book a service
+      responses:
+        '201':
+          description: Service booked successfully
+
+  /resource-library:
+    get:
+      summary: Get resources
+      responses:
+        '200':
+          description: Successful response
